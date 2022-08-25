@@ -79,6 +79,7 @@ We will be using the cosine similarity to calculate a numeric quantity that deno
 Since we have used the TF-IDF vectorizer, calculating the dot product will directly give us the cosine similarity score. Therefore, we will use sklearn's linear_kernel() instead of cosine_similarities() since it is faster.
 
 
-
+Conclusion
+-------------
 ![image](https://user-images.githubusercontent.com/37211139/186606700-216fd25c-f008-4369-9d27-f785ec49a515.png)
 
