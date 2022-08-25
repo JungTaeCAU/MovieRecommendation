@@ -66,5 +66,19 @@ where,
 * R is the average rating of the movie; And
 * C is the mean vote across the whole report
 
+Content Based Filtering
+-------------
+We see that over 20,000 different words were used to describe the 4800 movies in our dataset.
+
+With this matrix in hand, we can now compute a similarity score. There are several candidates for this; such as the euclidean, the Pearson and the cosine similarity scores. There is no right answer to which score is the best. Different scores work well in different scenarios and it is often a good idea to experiment with different metrics.
+
+We will be using the cosine similarity to calculate a numeric quantity that denotes the similarity between two movies. We use the cosine similarity score since it is independent of magnitude and is relatively easy and fast to calculate. Mathematically, it is defined as follows:
+
+![image](https://user-images.githubusercontent.com/37211139/186608064-2a776901-4d78-4d3c-998b-7ae80f6ef39d.png)
+
+Since we have used the TF-IDF vectorizer, calculating the dot product will directly give us the cosine similarity score. Therefore, we will use sklearn's linear_kernel() instead of cosine_similarities() since it is faster.
+
+
+
 ![image](https://user-images.githubusercontent.com/37211139/186606700-216fd25c-f008-4369-9d27-f785ec49a515.png)
 
