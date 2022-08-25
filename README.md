@@ -57,6 +57,8 @@ Before getting started with this -
 * Sort the scores and recommend the best rated movie to the users.
 We can use the average ratings of the movie as the score but using this won't be fair enough since a movie with 8.9 average rating and only 3 votes cannot be considered better than the movie with 7.8 as as average rating but 40 votes. So, I'll be using IMDB's weighted rating (wr) which is given as :-
 
+![image](https://user-images.githubusercontent.com/37211139/186607756-d71ba895-7e69-4cd7-92ba-0b43b20fec1d.png)
+
 where,
 
 * v is the number of votes for the movie;
