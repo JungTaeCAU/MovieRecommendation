@@ -47,3 +47,6 @@ $ pip install tmdbv3api
 $ streamlit run app.py
 </code>
 </pre>
+
+![image](https://user-images.githubusercontent.com/37211139/186606700-216fd25c-f008-4369-9d27-f785ec49a515.png)
+
