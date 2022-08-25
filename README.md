@@ -9,11 +9,41 @@
 
 
 
-
 [link]: https://www.kaggle.com/code/ibtesama/getting-started-with-a-movie-recommendation-system/notebook
 
 This Project is based on [Kaggle][link]
 
 
-
  </div>
+
+How to Run
+=============
+Requirements
+-------------
+This project was built in VSCode.
+* [VSCode](https://code.visualstudio.com/)
+* [Jupyter-Notebook](https://jupyter.org/)
+
+Clone this repo
+-------------
+    git clone https://github.com/JungTaeCAU/MovieRecommendation.git
+Run in Local
+-------------
+1. install streamlit library
+<pre>
+<code>
+$ pip install streamlit
+</code>
+</pre>
+2. install tmdbv3api library
+<pre>
+<code>
+$ pip install tmdbv3api
+</code>
+</pre>
+3. RUN
+<pre>
+<code>
+$ streamlit run app.py
+</code>
+</pre>
