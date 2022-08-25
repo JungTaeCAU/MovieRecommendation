@@ -2,7 +2,7 @@
 
 # 📯 Movie Recommendation System with Kaggle 📯
 
-<img src="https://img.shields.io/github/languages/count/beygee/survive "/> 
+<img src="https://img.shields.io/badge/Jupyter-Notebook-#F37626?style=flat-square&logo=Jupyter&logoColor=black"/>
 <img src="https://img.shields.io/github/repo-size/beygee/survive"/> 
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
 
