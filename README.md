@@ -2,9 +2,10 @@
 
 #  Movie Recommendation System with Kaggle 
 
-<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=Jupyter&logoColor=black"/>
-<img src="https://img.shields.io/github/repo-size/beygee/survive"/> 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/JupyterNotebook-F37626?style=flat-square&logo=Jupyter&logoColor=black"/>
+<img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kaggle-#20BEFF?style=flat-square&logo=Kaggle&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=White"/>
 
 
 
