@@ -78,6 +78,11 @@ We will be using the cosine similarity to calculate a numeric quantity that deno
 
 Since we have used the TF-IDF vectorizer, calculating the dot product will directly give us the cosine similarity score. Therefore, we will use sklearn's linear_kernel() instead of cosine_similarities() since it is faster.
 
+Surprise Library Benchmarks
+-------------
+Here are the average RMSE, MAE and total execution time of various algorithms (with their default parameters) on a 5-fold cross-validation procedure. The datasets are the Movielens 100k and 1M datasets. The folds are the same for all the algorithms. All experiments are run on a notebook with Intel Core i5 7th gen (2.5 GHz) and 8Go RAM. The code for generating these tables can be found in the benchmark example.
+
+![image](https://user-images.githubusercontent.com/37211139/186609049-dd934888-610e-47b4-8fdf-c0d552895b10.png)
 
 Conclusion
 -------------
